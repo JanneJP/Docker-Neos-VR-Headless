@@ -1,0 +1,1 @@
+docker build . -t neos-headless --build-arg BETA_CODE=<BETA CODE HERE> --build-arg STEAM_USERNAME=<STEAM USERNAME HERE> --build-arg STEAM_PASSWORD=<STEAM PASSWORD HERE>

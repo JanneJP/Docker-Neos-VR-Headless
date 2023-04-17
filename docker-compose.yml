@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  neos-headless:
+    container_name: neos-headless
+    build: ./
+    volumes:
+      - ./Config.json:/opt/game/Config/Config.json
