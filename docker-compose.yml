@@ -6,3 +6,4 @@ services:
     container_name: neos-headless
     volumes:
       - ./Config.json:/opt/game/Config/Config.json
+      - ./logs/:/opt/game/Logs/
