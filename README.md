@@ -23,9 +23,11 @@ Dockerized headless client for Neos VR
 
         docker build . -t neos-headless:latest --build-arg BETA_CODE=<BETA CODE HERE> --build-arg STEAM_USERNAME=<STEAM USERNAME HERE> --build-arg STEAM_PASSWORD=<STEAM PASSWORD HERE>
 
-- Make a copy of the `example.Config.json` and call it `Config.json`, place it next to docker-compose.yml
+- Make a copy of the `example.Config.json` and call it `Config.json`, place it next to `docker-compose.yml`
 
-- Edit it to your liking. Refer the the wiki link below for more information.
+- Make a copy of `example.env` and call it `.env`, place it next to `Config.json` and `docker-compose.yml`
+
+- Edit both to your liking. Refer the the wiki link below for more information about the `Config.json` file.
 
 - Start the server
 

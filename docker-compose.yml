@@ -4,6 +4,8 @@ services:
   neos-headless:
     image: neos-headless:latest
     container_name: neos-headless
+    environment:
+      - TZ=${TZ}
     volumes:
       - ./Config.json:/opt/game/Config/Config.json
       - ./logs/:/opt/game/Logs/
