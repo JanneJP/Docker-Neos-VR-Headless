@@ -29,9 +29,14 @@ Dockerized headless client for Neos VR
 
 - Start the server
 
-    docker compose up -d
+        docker compose up -d
 
 - The server should become reachable via the worlds browser in a couple minutes.
+
+## Notes
+
+Special characters in either the Steam or Neos account passwords might cause issues with the process.
+
 ## Resources
 
 [Wiki: Headless Client](https://wiki.neos.com/Headless_Client)
