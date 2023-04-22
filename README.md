@@ -29,6 +29,8 @@ Dockerized headless client for Neos VR
 
 - Edit both to your liking. Refer the the wiki link below for more information about the `Config.json` file.
 
+- Optionally configure `HeadlessTweaks.json` according to `example.HeadlessTweaks.json` in `./config` to use discord webhooks.
+
 - Start the server
 
         docker compose up -d
