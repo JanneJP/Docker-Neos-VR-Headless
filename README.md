@@ -39,6 +39,10 @@ Dockerized headless client for Neos VR
 
 Special characters in either the Steam or Neos account passwords might cause issues with the process.
 
+## Useful mods
+
+[Headless Tweaks](https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks)
+
 ## Resources
 
 [Wiki: Headless Client](https://wiki.neos.com/Headless_Client)

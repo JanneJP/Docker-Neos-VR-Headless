@@ -1,0 +1,19 @@
+{
+    "version": "1.0.0",
+    "values": {
+      "UseDiscordWebhook": false,
+      "DiscordWebhookID": null,
+      "DiscordWebhookKey": null,
+      "DiscordWebhookUsername": null,
+      "DiscordWebhookAvatar": null,
+      "AutoInviteOptOut": [],
+      "PermissionLevels": {},
+      "WorldRoster": {},
+      "SessionIdToName": {},
+      "DefaultSessionAccessLevel": "FriendsOfFriends",
+      "DefaultSessionHidden": true,
+      "AlternateListAlpha": 0.7,
+      "SmartAutosave": false,
+      "_configSaved": true
+    }
+  }

@@ -1,3 +1,5 @@
 build-command.txt
 Config.json
 .env
+*.log
+config/HeadlessTweaks.json

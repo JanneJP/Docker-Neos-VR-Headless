@@ -30,4 +30,14 @@ RUN ./steamcmd.sh +force_install_dir /opt/game +login ${STEAM_USERNAME} ${STEAM_
 
 WORKDIR /opt/game
 
-ENTRYPOINT [ "mono",  "Neos.exe" ]
+RUN mkdir nml_libs
+
+RUN mkdir nml_mods
+
+RUN mkdir nml_config
+
+RUN wget -P ./Libraries https://github.com/neos-modding-group/NeosModLoader/releases/latest/download/NeosModLoader.dll
+
+RUN ln -s ./ 'Neos_Data\Managed'
+
+ENTRYPOINT [ "mono",  "Neos.exe" , "-LoadAssembly", "Libraries/NeosModLoader.dll"]

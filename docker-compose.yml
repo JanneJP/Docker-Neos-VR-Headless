@@ -9,3 +9,6 @@ services:
     volumes:
       - ./Config.json:/opt/game/Config/Config.json
       - ./logs/:/opt/game/Logs/
+      - ./mods:/opt/game/nml_mods
+      - ./config:/opt/game/nml_config
+      - ./libs:/opt/game/nml_libs
